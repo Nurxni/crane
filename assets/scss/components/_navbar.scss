@@ -2,13 +2,27 @@
   background: #000;
   width: 100%;
   padding: 1rem;
+  color: $body-color;
 }
 
-.navbar-item {
+.navbar-menu .is-active{
+  background: transparent;
+}
+
+a.navbar-item {
   padding: 0.2rem 0.5rem;
+  color: $body-color;
+}
+
+.navbar-link {
+  color: $body-color;
 }
 
 a.navbar-item:hover { 
   background-color: transparent;
-  color: yellow;
+  color: $body-color;
+}
+
+.navbar-burger {
+  color: $body-color;
 }

@@ -1,3 +1,7 @@
+html {
+  background: #000;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9,7 +13,8 @@ body {
   height: 100vh;
   font-family: courier new;
   font-size: 14px;
-  color: yellow;
+  color: #ffff00;
+  background: #000;
 }
 
 main {
@@ -20,6 +25,14 @@ hr {
   margin: 0 auto;
   background: yellow;
   width: 80%;
+}
+
+.title {
+  color: #ffff00;
+}
+
+.subtitle {
+  color: #ffff00;
 }
 
 .content h6 {
@@ -34,23 +47,45 @@ hr {
 .card {
   margin-top: 20px;
   background-color: transparent;
+  color: #ffff00;
 }
 
-.card-content {
-  background: #000;
-}
-
-.small-card {
-  width: 80%;
-}
-
-.big-card {
-  width: 90%;
+.content h6 {
+  color: #ffff00;
 }
 
 .big-card-content {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 41, 95, 0.9)), to(rgba(0, 0, 10, 0.9)));
   background: linear-gradient(rgba(41, 41, 95, 0.9), rgba(0, 0, 10, 0.9));
+}
+
+.navbar {
+  background: #000;
+  width: 100%;
+  padding: 1rem;
+  color: #ffff00;
+}
+
+.navbar-menu .is-active {
+  background: transparent;
+}
+
+a.navbar-item {
+  padding: 0.2rem 0.5rem;
+  color: #ffff00;
+}
+
+.navbar-link {
+  color: #ffff00;
+}
+
+a.navbar-item:hover {
+  background-color: transparent;
+  color: #ffff00;
+}
+
+.navbar-burger {
+  color: #ffff00;
 }
 
 .has-bg-img {

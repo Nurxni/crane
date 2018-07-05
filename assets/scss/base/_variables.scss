@@ -1,14 +1,16 @@
-$primary-color: #ffff00;
+$body-color: #ffff00;
 $body-background-color: #000;
+
+$spacing: 60px 20px;
 
 $family-primary: courier new;
 
 $card-background-color: transparent;
-$card-color: $primary-color;
+$card-color: $body-color;
 
 $navbar-background-color: $body-background-color;
-$navbar-item-color: $primary-color;
+$navbar-item-color: $body-color;
 
-$button-color: $primary-color;
+$button-color: $body-color;
 $button-background-color: $body-background-color;
-$button-border-color: $primary-color;
+$button-border-color: $body-color;

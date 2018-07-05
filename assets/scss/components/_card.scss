@@ -1,18 +1,11 @@
 .card {
   margin-top: 20px;
   background-color: transparent;
+  color: $body-color;
 }
 
-.card-content {
-  background: #000;
-}
-
-.small-card {
-  width: 80%;
-}
-
-.big-card {
-  width: 90%;
+.content h6 {
+  color: $body-color;
 }
 
 .big-card-content {
