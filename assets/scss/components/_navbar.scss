@@ -1,0 +1,14 @@
+.navbar {
+  background: #000;
+  width: 100%;
+  padding: 1rem;
+}
+
+.navbar-item {
+  padding: 0.2rem 0.5rem;
+}
+
+a.navbar-item:hover { 
+  background-color: transparent;
+  color: yellow;
+}

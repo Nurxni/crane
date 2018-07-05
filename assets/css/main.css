@@ -1,0 +1,235 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: courier new;
+  font-size: 14px;
+  color: yellow;
+}
+
+main {
+  background: #000;
+}
+
+hr {
+  margin: 0 auto;
+  background: yellow;
+  width: 80%;
+}
+
+.content h6 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.container {
+  padding: 60px 20px;
+}
+
+.card {
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.card-content {
+  background: #000;
+}
+
+.small-card {
+  width: 80%;
+}
+
+.big-card {
+  width: 90%;
+}
+
+.big-card-content {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 41, 95, 0.9)), to(rgba(0, 0, 10, 0.9)));
+  background: linear-gradient(rgba(41, 41, 95, 0.9), rgba(0, 0, 10, 0.9));
+}
+
+.has-bg-img {
+  background: url("/assets/img/one-piece.jpg") center center, -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
+  background: url("/assets/img/one-piece.jpg") center center, linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: overlay;
+  background-size: cover;
+  margin-top: 84px;
+}
+
+.is-yellow {
+  color: yellow;
+}
+
+.heading_group {
+  text-align: center;
+}
+
+.heading_strong {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.heading_weak {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  opacity: .5;
+}
+
+.heading_text {
+  font-size: 20px;
+  opacity: .6;
+  font-weight: normal;
+}
+
+.icon_div {
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.sec-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 10, 0.9)), to(rgba(0, 0, 10, 0.9)));
+  background: linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 10, 0.9));
+}
+
+.sec-2 {
+  padding-top: 200px;
+  position: relative;
+}
+
+.sec-2:before {
+  display: block;
+  width: 100%;
+  height: 440px;
+  content: '';
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 10, 0.9)), to(rgba(0, 0, 10, 0.9))), url("../../assets/img/one-piece.jpg");
+  background-image: linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 10, 0.9)), url("../../assets/img/one-piece.jpg");
+  background-position: top center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.history {
+  padding-top: 200px;
+  position: relative;
+}
+
+.history:before {
+  display: block;
+  width: 100%;
+  height: 440px;
+  content: '';
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 10, 0.9)), to(rgba(0, 0, 10, 0.9))), url("../../assets/img/grand-line.jpg");
+  background-image: linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 10, 0.9)), url("../../assets/img/grand-line.jpg");
+  background-position: top center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.history-wrapper {
+  background: #000;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.history p {
+  opacity: .7;
+  margin: 10px 0;
+}
+
+.blackbox {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 10, 0.9)), to(rgba(0, 0, 10, 0.9)));
+  background: linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 10, 0.9));
+}
+
+.info {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.info-content {
+  margin-bottom: 20px;
+}
+
+.info p {
+  opacity: .5;
+}
+
+.bluebox {
+  background: url("/assets/img/grand-line.jpg") center center, -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 10, 0.9)), to(rgba(0, 0, 10, 0.9)));
+  background: url("/assets/img/grand-line.jpg") center center, linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 10, 0.9));
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.bluebox-container {
+  padding: 50px 0;
+}
+
+.vl {
+  border-left: 2px solid yellow;
+}
+
+.contact-container {
+  width: 60%;
+}
+
+.opac-6 {
+  opacity: .6;
+}
+
+.footer {
+  height: 250px;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.footer:before {
+  display: block;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 10, 0.9)), to(rgba(0, 0, 10, 0.9)));
+  background: linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 10, 0.9));
+  position: absolute;
+}
+
+.footer-map {
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.button {
+  background-color: yellow;
+  border: none;
+  border-radius: 0;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.button:hover {
+  border: 3px solid yellow;
+  background-color: transparent;
+  color: yellow;
+}
+/*# sourceMappingURL=main.css.map */

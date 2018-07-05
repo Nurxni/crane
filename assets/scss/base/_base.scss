@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: courier new;
+  font-size: 14px;
+  color: yellow;
+}
+
+main {
+  background: #000;
+}
+
+
+
+hr {
+  margin: 0 auto;
+  background: yellow;
+  width: 80%;
+
+}
+
+.content h6 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.container {
+  padding: 60px 20px;
+}
